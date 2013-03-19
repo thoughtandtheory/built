@@ -70,7 +70,7 @@ Built::Application.configure do
   
   # Amazon S3 for Image Assets on Heroku
   config.paperclip_defaults = {
-    :store => :s3,
+    :storage => :s3,
     :s3_credentials => {
       :bucket => ENV['AWS_BUCKET'],
       :access_key_id => ENV['AWS_ACCESS_KEY_ID'],
