@@ -3,7 +3,7 @@ Built::Application.routes.draw do
   resources :pins
   devise_for :users
   get 'about' => 'pages#about'
-  match 'users/:id' => 'users#show', :as => 'usershow'
+  match 'users/:id' => 'users#show', :as => 'profile'
   root :to => 'pins#index'
 
   # The priority is based upon order of creation:
