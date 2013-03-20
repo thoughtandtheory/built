@@ -5,6 +5,7 @@ $btnPrimaryBackground: purple;
 @import 'bootstrap';
 body{
   padding: 60px 0;
+  background: #eee;
 }
 
 @import 'bootstrap-responsive';
@@ -31,13 +32,15 @@ body{
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  box-shadow: 1px 1px 10px #444;
-  width: 214px;
+  background: #fff;
+  width: 212px;
+  border: 1px solid #ddd;
 }
 
 .box img.pin-img {
   display: block;
   width: 100%;
+  min-width: 204px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
