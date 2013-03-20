@@ -1,4 +1,8 @@
-<% if @user.avatar? %>
-  <%= image_tag @user.avatar(:large) %>
-<% end %>
-<%= @user.name %>
+<div class="well">
+  <% if @user.avatar? %>
+    <%= image_tag @user.avatar(:large) %>
+  <% end %>
+  <%= @user.name %>
+</div>
+
+<%= render @pins %>
